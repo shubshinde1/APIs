@@ -3,7 +3,7 @@ import Posts from "./Post";
 
 const Home = () => {
   return (
-    <div className="overflow-y-scroll sbar w-full">
+    <div className="overflow-y-scroll sbar w-full ">
       <Posts />
     </div>
   );

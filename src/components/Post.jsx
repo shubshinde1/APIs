@@ -82,11 +82,11 @@ const Post = () => {
   const totalComments = comments.length;
 
   return (
-    <div className="flex flex-col gap-2">
-      <div className="bg-neutral-900 px-2 py-4 rounded-md sticky top-0 z-10">
+    <div className="flex flex-col gap-2 ">
+      <div className="bg-neutral-900 px-2 py-4 rounded-md sticky top-0 z-10 ">
         Total Posts: {totalPosts} | Total Comments: {totalComments}
       </div>
-      <div className="flex flex-col gap-2 sticky top-2 z-0 ">
+      <div className="flex flex-col gap-2 sticky top-2 z-0  ">
         {posts.map((data) => {
           const { id, title, body, userId } = data;
           const postComments = getCommentsForPost(id);
@@ -94,7 +94,7 @@ const Post = () => {
           return (
             <div
               key={id}
-              className="bg-neutral-900 p-2 flex flex-col gap-2 rounded-md group"
+              className="bg-neutral-900 p-2 flex flex-col gap-2 rounded-md group "
             >
               <Link to={`/profile?userId=${id}`}>
                 <div className="flex items-center gap-2 group-hover:bg-neutral-950 w-fit group-hover:px-2 py-2 duration-300 rounded-md">

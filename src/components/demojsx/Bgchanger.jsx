@@ -6,10 +6,10 @@ const Bgchanger = () => {
     <div>
       This is Background color changer
       <div
-        className=" flex flex-col justify-end  items-center rounded-md p-2 mt-2"
+        className="flex  justify-end  items-start rounded-md p-2 mt-2  "
         style={{ backgroundColor: color }}
       >
-        <div className="bg-neutral-800 rounded-md ">
+        <div className="bg-neutral-800 rounded-md overflow-scroll">
           <div className=" flex gap-2 p-2">
             <button
               className="bg-red-500 text-white px-4 py-1 rounded-md"

@@ -5,7 +5,7 @@ import Passwordgenerator from "./demojsx/Passwordgenerator";
 
 const Demo = () => {
   return (
-    <div className="w-full h-full flex flex-col gap-5">
+    <div className="w-full h-full bg-neutral-800 p-2 rounded-md flex flex-col gap-5">
       {/* usestate */}
       <States />
 

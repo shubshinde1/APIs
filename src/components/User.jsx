@@ -88,7 +88,7 @@ const Users = () => {
           return (
             <div
               key={id}
-              className="bg-neutral-900 flex flex-col gap-2 p-2 rounded-md col-span-3 group"
+              className="bg-neutral-900 flex flex-col gap-2 p-2 rounded-md col-span-12 md:col-span-3 group"
             >
               <div className="flex justify-between">
                 <img

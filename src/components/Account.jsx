@@ -48,7 +48,7 @@ const Account = () => {
   };
 
   return (
-    <div className="bg-neutral-900 w-full p-2 rounded-md gap-2 grid grid-cols-12 items-center">
+    <div className="bg-neutral-900 w-full h-fit md:h-[97vh] p-2 rounded-md gap-2 grid grid-cols-12 items-center">
       {isLoggedIn ? (
         <div className="col-span-12 text-center text-white">
           <h2 className="text-3xl">
@@ -57,8 +57,8 @@ const Account = () => {
           </h2>
         </div>
       ) : (
-        <>
-          <div className="col-span-6 bg-neutral-950 m-5 p-5 rounded-md">
+        <div className="col-span-12 grid grid-cols-12">
+          <div className="col-span-12 md:col-span-6 order-1  bg-neutral-950 m-5 p-5 rounded-md">
             <form className="flex flex-col gap-5" onSubmit={handleLogin}>
               <div className="flex flex-col">
                 <label>User Name</label>
@@ -97,10 +97,10 @@ const Account = () => {
               </div>
             </form>
           </div>
-          <div className="col-span-6 m-5 flex justify-center">
+          <div className="col-span-12 md:col-span-6 md:order-2 m-5 flex justify-center">
             <img src={Login} width={400} alt="Login Illustration" />
           </div>
-        </>
+        </div>
       )}
       {isSignUpModalOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">

@@ -29,9 +29,9 @@ const Movies = () => {
   if (!collectionData) return <div>Loading...</div>;
 
   return (
-    <div className="flex gap-10">
-      <div className=" bg-neutral-900 flex gap-2 p-2 rounded-md">
-        <div className="w-1/3">
+    <div className="flex gap-10 ">
+      <div className=" bg-neutral-900 flex flex-col md:flex-row gap-2 p-2 rounded-md overflow-hidden">
+        <div className="w-full md:w-1/5  h-fit">
           <img
             src={`https://image.tmdb.org/t/p/w200${collectionData.poster_path}`}
             alt={collectionData.name}
@@ -42,11 +42,11 @@ const Movies = () => {
           <p>Parts: {collectionData.parts.length}</p>
         </div>
 
-        <ul className="bg-neutral-950 overflow-scroll sbar grid grid-cols-12 gap-2 w-2/3 p-2 rounded-md">
+        <ul className="bg-neutral-950 overflow-scroll sbar grid grid-cols-12 gap-2 w-full md:w-4/5 p-2 rounded-md">
           {collectionData.parts.map((movie) => (
             <li
               key={movie.id}
-              className=" col-span-4 bg-neutral-900 p-2 rounded-md flex flex-col gap-2"
+              className=" col-span-12 md:col-span-3 bg-neutral-900 p-2 rounded-md flex flex-col gap-2"
             >
               <img
                 src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}

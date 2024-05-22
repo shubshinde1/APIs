@@ -5,3 +5,8 @@
 .sbar {
     scrollbar-width: none;
 }
+
+* {
+    scrollbar-width: none;
+
+}

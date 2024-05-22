@@ -5,10 +5,7 @@ import { TbSmartHome } from "react-icons/tb";
 import { RiUserSmileLine } from "react-icons/ri";
 import { BiCameraMovie } from "react-icons/bi";
 import { LuUser } from "react-icons/lu";
-import {
-  TbLayoutSidebarLeftCollapseFilled,
-  TbLayoutSidebarRightCollapseFilled,
-} from "react-icons/tb";
+import { SiAlltrails } from "react-icons/si";
 
 const Navbar = () => {
   const [isCollapsed, setIsCollapsed] = useState(false);
@@ -70,7 +67,7 @@ const Navbar = () => {
           to="/demo"
         >
           <li className="hover:bg-neutral-950 cursor-pointer p-2 rounded-md flex gap-2 items-center ">
-            <LuUser fontSize={25} />
+            <SiAlltrails fontSize={25} />
             {/* <span>Demo JS</span> */}
           </li>
         </NavLink>

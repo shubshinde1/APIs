@@ -1,0 +1,17 @@
+{
+    "user1": {
+        "firstname": "Shubham",
+        "username": "Shushinde",
+        "password": "Tonystark@12"
+    },
+    "user2": {
+        "firstname": "Aditya",
+        "username": "adi",
+        "password": "123"
+    },
+    "user3": {
+        "firstname": "Payal",
+        "username": "payal",
+        "password": "Tonystark@12"
+    }
+}

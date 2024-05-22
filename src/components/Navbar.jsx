@@ -3,6 +3,8 @@ import { NavLink } from "react-router-dom";
 import { BiSolidTachometer } from "react-icons/bi";
 import { TbSmartHome } from "react-icons/tb";
 import { RiUserSmileLine } from "react-icons/ri";
+import { BiCameraMovie } from "react-icons/bi";
+import { LuUser } from "react-icons/lu";
 
 const Navbar = () => {
   return (
@@ -39,6 +41,39 @@ const Navbar = () => {
           <li className="hover:bg-neutral-950 cursor-pointer p-2 rounded-md flex gap-2 items-center">
             <RiUserSmileLine fontSize={20} />
             <span>Profiles</span>
+          </li>
+        </NavLink>
+        <NavLink
+          className={(e) => {
+            return e.isActive ? "bg-neutral-950 rounded-md" : "";
+          }}
+          to="/movies"
+        >
+          <li className="hover:bg-neutral-950 cursor-pointer p-2 rounded-md flex gap-2 items-center">
+            <BiCameraMovie fontSize={20} />
+            <span>Movies </span>
+          </li>
+        </NavLink>
+        <NavLink
+          className={(e) => {
+            return e.isActive ? "bg-neutral-950 rounded-md" : "";
+          }}
+          to="/account"
+        >
+          <li className="hover:bg-neutral-950 cursor-pointer p-2 rounded-md flex gap-2 items-center">
+            <LuUser fontSize={20} />
+            <span>Account </span>
+          </li>
+        </NavLink>
+        <NavLink
+          className={(e) => {
+            return e.isActive ? "bg-neutral-950 rounded-md" : "";
+          }}
+          to="/demo"
+        >
+          <li className="hover:bg-neutral-950 cursor-pointer p-2 rounded-md flex gap-2 items-center">
+            <LuUser fontSize={20} />
+            <span>Demo JS </span>
           </li>
         </NavLink>
       </nav>

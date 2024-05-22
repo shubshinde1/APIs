@@ -6,6 +6,9 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Profile from "./components/Profile";
 import ProfileDetails from "./components/ProfileDetails";
+import Movies from "./components/Movies";
+import Account from "./components/Account";
+import Demo from "./components/Demo";
 
 function App() {
   return (
@@ -17,6 +20,9 @@ function App() {
             <Route index element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/profile" element={<Profile />} />
+            <Route path="/movies" element={<Movies />} />
+            <Route path="/account" element={<Account />} />
+            <Route path="/demo" element={<Demo />} />
             <Route path="/profile/:id" element={<ProfileDetails />} />
           </Routes>
         </div>

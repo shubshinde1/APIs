@@ -1,0 +1,180 @@
+{
+    "currencyRates": {
+        "USD": {
+            "country": "United States",
+            "countrycode": "USD",
+            "rates": {
+                "INR": 83.0,
+                "AUD": 1.56,
+                "EUR": 0.91,
+                "JPY": 109.62,
+                "GBP": 0.74,
+                "CAD": 1.25,
+                "CHF": 0.92,
+                "CNY": 6.45,
+                "SEK": 8.68,
+                "NZD": 1.43
+            }
+        },
+        "INR": {
+            "country": "India",
+            "countrycode": "INR",
+            "rates": {
+                "USD": 0.012,
+                "AUD": 0.018,
+                "EUR": 0.011,
+                "JPY": 1.32,
+                "GBP": 0.0089,
+                "CAD": 0.015,
+                "CHF": 0.011,
+                "CNY": 0.078,
+                "SEK": 0.10,
+                "NZD": 0.017
+            }
+        },
+        "AUD": {
+            "country": "Australia",
+            "countrycode": "AUD",
+            "rates": {
+                "USD": 0.64,
+                "INR": 53.21,
+                "EUR": 0.58,
+                "JPY": 70.25,
+                "GBP": 0.47,
+                "CAD": 0.80,
+                "CHF": 0.59,
+                "CNY": 4.14,
+                "SEK": 5.56,
+                "NZD": 0.92
+            }
+        },
+        "EUR": {
+            "country": "Eurozone",
+            "countrycode": "EUR",
+            "rates": {
+                "USD": 1.10,
+                "INR": 91.21,
+                "AUD": 1.72,
+                "JPY": 121.27,
+                "GBP": 0.81,
+                "CAD": 1.37,
+                "CHF": 1.01,
+                "CNY": 7.08,
+                "SEK": 9.57,
+                "NZD": 1.57
+            }
+        },
+        "JPY": {
+            "country": "Japan",
+            "countrycode": "JPY",
+            "rates": {
+                "USD": 0.0091,
+                "INR": 0.76,
+                "AUD": 0.014,
+                "EUR": 0.0082,
+                "GBP": 0.0067,
+                "CAD": 0.011,
+                "CHF": 0.0083,
+                "CNY": 0.058,
+                "SEK": 0.079,
+                "NZD": 0.013
+            }
+        },
+        "GBP": {
+            "country": "United Kingdom",
+            "countrycode": "GBP",
+            "rates": {
+                "USD": 1.35,
+                "INR": 101.22,
+                "AUD": 1.92,
+                "EUR": 1.23,
+                "JPY": 151.38,
+                "CAD": 1.66,
+                "CHF": 1.25,
+                "CNY": 8.80,
+                "SEK": 11.80,
+                "NZD": 1.95
+            }
+        },
+        "CAD": {
+            "country": "Canada",
+            "countrycode": "CAD",
+            "rates": {
+                "USD": 0.80,
+                "INR": 66.41,
+                "AUD": 1.25,
+                "EUR": 0.73,
+                "JPY": 90.73,
+                "GBP": 0.60,
+                "CHF": 0.75,
+                "CNY": 5.31,
+                "SEK": 7.12,
+                "NZD": 1.15
+            }
+        },
+        "CHF": {
+            "country": "Switzerland",
+            "countrycode": "CHF",
+            "rates": {
+                "USD": 1.09,
+                "INR": 90.23,
+                "AUD": 1.70,
+                "EUR": 0.99,
+                "JPY": 119.18,
+                "GBP": 0.80,
+                "CAD": 1.33,
+                "CNY": 7.05,
+                "SEK": 9.54,
+                "NZD": 1.56
+            }
+        },
+        "CNY": {
+            "country": "China",
+            "countrycode": "CNY",
+            "rates": {
+                "USD": 0.16,
+                "INR": 12.89,
+                "AUD": 0.24,
+                "EUR": 0.14,
+                "JPY": 16.90,
+                "GBP": 0.11,
+                "CAD": 0.19,
+                "CHF": 0.14,
+                "SEK": 1.35,
+                "NZD": 0.22
+            }
+        },
+        "SEK": {
+            "country": "Sweden",
+            "countrycode": "SEK",
+            "rates": {
+                "USD": 0.12,
+                "INR": 9.57,
+                "AUD": 0.18,
+                "EUR": 0.10,
+                "JPY": 12.52,
+                "GBP": 0.084,
+                "CAD": 0.14,
+                "CHF": 0.10,
+                "CNY": 0.74,
+                "NZD": 0.16
+            }
+        },
+        "NZD": {
+            "country": "New Zealand",
+            "countrycode": "NZD",
+            "rates": {
+                "USD": 0.70,
+                "INR": 58.04,
+                "AUD": 1.08,
+                "EUR": 0.64,
+                "JPY": 76.62,
+                "GBP": 0.51,
+                "CAD": 0.87,
+                "CHF": 0.65,
+                "CNY": 4.45,
+                "SEK": 5.95
+            }
+        }
+    }
+}

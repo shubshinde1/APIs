@@ -2,18 +2,22 @@ import React from "react";
 import States from "./demojsx/States";
 import Bgchanger from "./demojsx/Bgchanger";
 import Passwordgenerator from "./demojsx/Passwordgenerator";
+import Currencyconverter from "./demojsx/Currencyconverter";
 
 const Demo = () => {
   return (
-    <div className="w-full h-full bg-neutral-800 p-2 rounded-md flex flex-col gap-5">
+    <div className="w-full h-[97.5vh] bg-neutral-900 p-2 rounded-md flex flex-col gap-5">
       {/* usestate */}
-      <States />
+      {/* <States /> */}
 
       {/* background changer */}
-      <Bgchanger />
+      {/* <Bgchanger /> */}
 
       {/* Password generator */}
-      <Passwordgenerator />
+      {/* <Passwordgenerator /> */}
+
+      {/* currency converter */}
+      <Currencyconverter />
     </div>
   );
 };

@@ -37,7 +37,10 @@ const Employee = () => {
       </div>
       <div className="mt-2 grid grid-cols-12 gap-2">
         {apiData.map((employee) => (
-          <div key={employee.empid} className="p-4 border rounded col-span-3 ">
+          <div
+            key={employee.empid}
+            className="p-4 border rounded col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 "
+          >
             <h2 className="text-lg font-bold">{employee.ename}</h2>
             <p>Employee ID: {employee.empid}</p>
             <p>Designation: {employee.designation}</p>

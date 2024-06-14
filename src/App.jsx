@@ -9,6 +9,7 @@ import ProfileDetails from "./components/ProfileDetails";
 import Movies from "./components/Movies";
 import Account from "./components/Account";
 import Demo from "./components/Demo";
+import Employee from "./components/demojsx/Employee";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
               <Route path="/account" element={<Account />} />
               <Route path="/demo" element={<Demo />} />
               <Route path="/profile/:id" element={<ProfileDetails />} />
+              <Route path="/demo/employee" element={<Employee />} />
             </Routes>
           </div>
           <Navbar />

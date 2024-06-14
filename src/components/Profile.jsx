@@ -13,6 +13,7 @@ const Profile = () => {
   const location = useLocation();
   const userId = new URLSearchParams(location.search).get("userId");
   const [user, setUser] = useState(null);
+  const [emp, setEmp] = useState(null);
   const [posts, setPosts] = useState([]);
   const [todos, setTodos] = useState([]);
 
